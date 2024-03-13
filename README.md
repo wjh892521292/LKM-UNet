@@ -12,6 +12,11 @@ Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv
 
 Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai` 
 
+Download code: `git clone https://github.com/wjh892521292/LMa-UNet` and `cd LMa-UNet/lmaunet` and run `pip install -e .`
+
+
+[overview6.pdf](https://github.com/wjh892521292/LMa-UNet/files/14583357/overview6.pdf)
+
 ### Preprocessing
 
 ```bash
