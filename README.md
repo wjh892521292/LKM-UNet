@@ -10,7 +10,7 @@ python 3.10 + torch 2.0.1 + torchvision 0.15.2
 
 Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv1d==1.1.1` and `pip install mamba-ssm`
 
-Install [monai]: `pip install monai` 
+Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai` 
 
 ### Preprocessing
 
