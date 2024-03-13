@@ -15,7 +15,7 @@ Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai`
 Download code: `git clone https://github.com/wjh892521292/LMa-UNet` and `cd LMa-UNet/lmaunet` and run `pip install -e .`
 
 
-![](imgs/overview.png)
+![](imgs/overview2.png)
 
 ### Preprocessing
 
