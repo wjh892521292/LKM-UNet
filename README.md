@@ -8,7 +8,7 @@ Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution
 
 python 3.10 + torch 2.0.1 + torchvision 0.15.2 (cuda 11.8)
 
-If your cuda is 11.8 can run:
+If cuda is 11.8 run:
 ```bash
 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html
 ```
