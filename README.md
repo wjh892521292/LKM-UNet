@@ -3,9 +3,13 @@
 
 ## [LMa-UNet](https://arxiv.org/abs/2403.07332)
 
+
+<div align="center">
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2404.02905-b31b1b.svg)](https://arxiv.org/abs/2403.07332)&nbsp;
 </div>
+
 <p align="center" style="font-size: larger;">
-  <a href="[https://arxiv.org/abs/2404.02905](https://arxiv.org/abs/2403.07332)">Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention
+  <a href="https://arxiv.org/abs/2403.07332">Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention
 </a>
 </p>
 
