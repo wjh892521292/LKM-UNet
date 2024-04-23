@@ -1,8 +1,13 @@
-# [LMa-UNet](https://arxiv.org/abs/2403.07332)
+# LMa-UNet: First large kernel Mamba model for medical segmentation elevates SSMs beyond Convolution and Self-attention 🚀
 
-Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention
 
-[https://arxiv.org/abs/2403.07332](https://arxiv.org/abs/2403.07332)
+## [LMa-UNet](https://arxiv.org/abs/2403.07332)
+
+</div>
+<p align="center" style="font-size: larger;">
+  <a href="[https://arxiv.org/abs/2404.02905](https://arxiv.org/abs/2403.07332)">Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention
+</a>
+</p>
 
 ### Requirements: 
 
