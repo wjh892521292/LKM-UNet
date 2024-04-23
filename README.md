@@ -1,7 +1,7 @@
 # LMa-UNet: First large kernel Mamba model for medical segmentation elevates SSMs beyond Convolution and Self-attention 🚀
 
 
-
+![](imgs/overview2.png)
 
 <div align="center">
 
@@ -11,6 +11,8 @@
 <p align="center" style="font-size: larger;">
   <a href="https://arxiv.org/abs/2403.07332">Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention</a>
 </p>
+
+--- 
 
 ### Requirements: 
 
@@ -28,7 +30,7 @@ Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai`
 Download code: `git clone https://github.com/wjh892521292/LMa-UNet` and `cd LMa-UNet/lmaunet` and run `pip install -e .`
 
 
-![](imgs/overview2.png)
+
 
 ### Preprocessing
 
