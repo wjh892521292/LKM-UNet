@@ -14,7 +14,7 @@
 
 ![w:800px](imgs/overview2.png)
 
---- 
+
 
 ## Requirements: 
 
@@ -34,13 +34,13 @@ Download code: `git clone https://github.com/wjh892521292/LMa-UNet` and `cd LMa-
 
 
 
-### Preprocessing
+## Preprocessing
 
 ```bash
 nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
 ```
 
-### Train models
+## Train models
 
 - Train 2D `LMaUNet` model
 
