@@ -16,7 +16,7 @@
 
 --- 
 
-### Requirements: 
+## Requirements: 
 
 python 3.10 + torch 2.0.1 + torchvision 0.15.2 (cuda 11.8)
 
