@@ -1,4 +1,4 @@
-# LMa-UNet: First large kernel Mamba model for medical segmentation elevates SSMs beyond Convolution and Self-attention 🚀
+# LMa-UNet: First large kernel Mamba for medical segmentation elevates SSMs beyond Convolution and Self-attention 🚀
 
 
 
