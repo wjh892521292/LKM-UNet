@@ -25,7 +25,7 @@ If cuda is 11.8 run:
 pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv1d==1.1.1` and `pip install mamba-ssm`
+Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv1d` and `pip install mamba-ssm`
 
 Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai` 
 
