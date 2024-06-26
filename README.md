@@ -74,7 +74,7 @@ nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_ID -c CONFIGURATION
 
 ```
 @article{wang2024large,
-    title={Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention},
+    title={Large Kernel Vision Mamba UNet for Medical Image Segmentation},
     author={Jinhong Wang and Jintai Chen and Danny Chen and Jian Wu},
     journal={arXiv preprint arXiv:2403.07332},
     year={2024}
