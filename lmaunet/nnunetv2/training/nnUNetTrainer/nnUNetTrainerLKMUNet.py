@@ -3,9 +3,9 @@ from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
 from nnunetv2.utilities.plans_handling.plans_handler import ConfigurationManager, PlansManager
 from torch import nn
 
-from nnunetv2.nets.LMaUNet import get_lmaunet_from_plans
+from nnunetv2.nets.LKMUNet import get_lkmunet_from_plans
 
-class nnUNetTrainerLMaUNet(nnUNetTrainer):
+class nnUNetTrainerLKMUNet(nnUNetTrainer):
     """
     MambaUNet Encoder + Residual Decoder + Skip Connections
     """
@@ -20,9 +20,9 @@ class nnUNetTrainerLMaUNet(nnUNetTrainer):
                                    num_input_channels,
                                    enable_deep_supervision: bool = True) -> nn.Module:
 
-        model = get_lmaunet_from_plans(plans_manager, dataset_json, configuration_manager,
+        model = get_lkmunet_from_plans(plans_manager, dataset_json, configuration_manager,
                                       num_input_channels, deep_supervision=enable_deep_supervision)
         
-        print("LMaUNet: {}".format(model))
+        print("LKMUNet: {}".format(model))
 
         return model
