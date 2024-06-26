@@ -540,7 +540,7 @@ class UNetResDecoder(nn.Module):
                 output += np.prod([self.num_classes, *skip_sizes[-(s+1)]], dtype=np.int64)
         return output
 
-class LMaUNet(nn.Module):
+class LKMUNet(nn.Module):
     def __init__(self,
                  input_channels: int,
                  n_stages: int,
@@ -593,7 +593,7 @@ class LMaUNet(nn.Module):
         return self.encoder.compute_conv_feature_map_size(input_size) + self.decoder.compute_conv_feature_map_size(input_size)
 
 
-def get_lmaunet_from_plans(plans_manager: PlansManager,
+def get_lkmunet_from_plans(plans_manager: PlansManager,
                            dataset_json: dict,
                            configuration_manager: ConfigurationManager,
                            num_input_channels: int,
@@ -611,10 +611,10 @@ def get_lmaunet_from_plans(plans_manager: PlansManager,
 
     label_manager = plans_manager.get_label_manager(dataset_json)
 
-    segmentation_network_class_name = 'LMaUNet'
-    network_class = LMaUNet
+    segmentation_network_class_name = 'LKMUNet'
+    network_class = LKMUNet
     kwargs = {
-        'LMaUNet': {
+        'LKMUNet': {
             'conv_bias': True,
             'norm_op': get_matching_instancenorm(conv_op),
             'norm_op_kwargs': {'eps': 1e-5, 'affine': True},
@@ -642,7 +642,7 @@ def get_lmaunet_from_plans(plans_manager: PlansManager,
         **kwargs[segmentation_network_class_name]
     )
     model.apply(InitWeights_He(1e-2))
-    if network_class == LMaUNet:
+    if network_class == LKMUNet:
         model.apply(init_last_bn_before_add_to_0)
 
     return model
