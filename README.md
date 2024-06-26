@@ -1,4 +1,4 @@
-# LMa-UNet: First large kernel Mamba for medical segmentation elevates SSMs beyond Convolution and Self-attention 🚀
+# LKM-UNet: Large Kernel Vision Mamba for Medical Segmentation elevates SSMs beyond Convolution and Self-attention 🚀
 
 
 
@@ -9,7 +9,7 @@
 </div>
 
 <p align="center" style="font-size: larger;">
-  <a href="https://arxiv.org/abs/2403.07332">Large Window-based Mamba UNet for Medical Image Segmentation: Beyond Convolution and Self-attention</a>
+  <a href="https://arxiv.org/abs/2403.07332">Large Kernel Vision Mamba UNet for Medical Image Segmentation</a>
 </p>
 
 ![w:800px](imgs/overview2.png)
@@ -29,7 +29,7 @@ Install [Mamba](https://github.com/state-spaces/mamba): `pip install causal-conv
 
 Install [monai](https://github.com/Project-MONAI/MONAI): `pip install monai` 
 
-Download code: `git clone https://github.com/wjh892521292/LMa-UNet` and `cd LMa-UNet/lmaunet` and run `pip install -e .`
+Download code: `git clone https://github.com/wjh892521292/LKM-UNet` and `cd LKM-UNet/lmaunet` and run `pip install -e .`
 
 
 
